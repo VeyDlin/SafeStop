@@ -2,7 +2,9 @@ name: Auto GitHub Release from csproj
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - master
 
 jobs:
   release:
